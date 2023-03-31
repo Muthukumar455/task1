@@ -1,0 +1,132 @@
+/*creating header section*/
+header
+{
+   background-color: rgb(0, 0, 0);
+    height: 110px;
+    width: 100%;
+}
+
+nav 
+{
+    float: right; /*to move right side all link*/
+}
+nav li
+{
+   display: inline-block; /*all link in inline*/
+   margin:50px auto; /*to center the all link in header section*/
+  
+}
+nav li a
+{
+    text-decoration: none; 
+    padding: 10px;  /*space between the link*/
+    cursor: pointer;
+    color: rgb(3, 254, 200);
+}
+
+/*moving mouse to menu bar bg will change*/
+a:hover
+{
+  background-color: red;
+}
+
+/* for contain img*/
+.contain
+{
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h1
+{
+    text-align: center;
+    cursor:pointer;
+    color: rgb(8, 242, 129);
+   
+}
+
+/*.container
+{
+    height: 300px;
+    width: 80%;
+    margin-left: 150px;
+ 
+}*/
+
+.content1
+{
+    
+    text-align: center;
+    margin-left: 200px;
+   float: left;
+   letter-spacing: 5px;
+   font-size: 25px;
+   text-align: justify;
+}
+
+.para1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+h3
+{
+    color:black;
+    margin-left: 380px;
+}
+
+span
+{
+    color: rgb(8, 242, 129);
+}
+
+
+
+.graph
+{
+    margin-left: 300px;
+  
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border-color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+th{
+    color: blue;
+    background-color: black;
+}
+td:hover{
+    background-color: chartreuse;
+}
+
+#footer
+{
+    background-color: rgb(8, 8, 8);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    
+
+}
+
+span.fot
+{
+    color: orange;
+    cursor: pointer;
+}
+
+
